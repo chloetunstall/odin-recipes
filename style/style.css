@@ -126,9 +126,10 @@ img {
 .index-photo1, .index-photo2, .index-photo3 {
     margin: 15px;
     margin-left: 1000px;
-    margin-top: -500px;
+    margin-top: -550px;
     transform: scale(2.0);
     transform-origin: 0 0;
+    border: white dotted 5px;
 }
 
 .photo-container img {
