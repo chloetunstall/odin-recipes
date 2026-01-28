@@ -123,3 +123,26 @@ img {
     display: block;
 }
 
+.index-photo1, .index-photo2, .index-photo3 {
+    margin: 15px;
+    margin-left: 1000px;
+    margin-top: -500px;
+    transform: scale(2.0);
+    transform-origin: 0 0;
+}
+
+.photo-container img {
+    display: none;
+}
+
+.buttons-and-photos:has(.garlic-button:hover) .index-photo1 {
+    display: block;
+}
+
+.buttons-and-photos:has(.chili-button:hover) .index-photo2 {
+    display: block;
+}
+
+.buttons-and-photos:has(.cookies-button:hover) .index-photo3 {
+    display: block;
+}
